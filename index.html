@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissor</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 30px;
+        }
+
+        button {
+            height: 90px;
+            width: 90px;
+            font-size: 45px;
+            background-color: rgb(50, 47, 47);
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        #but {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hei">
+
+        <button id="rock">🪨</button>
+        <button id="paper">📃</button>
+        <button id="scissor">✂️</button>
+    </div>
+    <div id="but">
+        <div id="myscr"></div>
+        <div id="cmscr"></div>
+    </div>
+    <h1 id="win"></h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
